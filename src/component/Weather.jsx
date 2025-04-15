@@ -9,7 +9,7 @@ import snow from "../assets/snow.png";
 import wind from "../assets/wind.png";
 import humidity from "../assets/humidity.png";
 import axios from "axios";
-import { toast, ToastContainer } from "react-";
+import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 export const Weather = () => {
