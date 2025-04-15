@@ -9,7 +9,7 @@ import snow from "../assets/snow.png";
 import wind from "../assets/wind.png";
 import humidity from "../assets/humidity.png";
 import axios from "axios";
-import { toast, ToastContainer } from "react-toastify";
+import { toast, ToastContainer } from "react-";
 import "react-toastify/dist/ReactToastify.css";
 
 export const Weather = () => {
@@ -65,7 +65,7 @@ export const Weather = () => {
   }, []);
 
   return (
-    <div className="weather">
+    <div className="weather">toastify
       <div className="search-bar">
         <input
           type="text"
