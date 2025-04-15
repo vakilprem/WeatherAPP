@@ -65,7 +65,7 @@ export const Weather = () => {
   }, []);
 
   return (
-    <div className="weather">toastify
+    <div className="weather">
       <div className="search-bar">
         <input
           type="text"
